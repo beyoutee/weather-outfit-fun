@@ -7,16 +7,16 @@
 }
 
 html, input, button {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Gabriola', 'Comic Sans MS', gadugib, Palatino Linotype, Arial;
 }
 
 body {
   max-width: 320px;
   margin: 0 auto;
   padding: 0 8px;
-  background-color: #4bc0a0;
-  color: #f7f7f8;
-  font-weight: 300;
+  background-color: silver;
+  color: gold;
+  font-weight: 344;
 }
 
 @media (max-width: 930px) {
@@ -36,8 +36,8 @@ button, input {
   margin: 0;
   display: block;
   width: 100%;
-  font-size: 14px;
-  font-weight: 300;
+  font-size: 20px;
+  font-weight: 344;
 }
 
 .input-btn-combo {
@@ -46,29 +46,29 @@ button, input {
 
 .input-btn-combo input {
   display: inline;
-  width: 75%;
+  width: 85%;
 }
 
 .input-btn-combo button {
   display: inline;
-  margin-left: 5%;
-  width: 20%;
+  margin-left: 25%;
+  width: 40%;
 }
 
 button.primary {
-  background-color: #5bc6fa;
-  box-shadow: 2px 2px 0 #348d74;
+  background-color: red;
+  box-shadow: 2px 12px 6 #348d74;
 }
 
 button {
-  background-color: #348d74;
-  color: white;
+  background-color: yellow;
+  color: black;
   cursor: pointer;
   font-weight: 600;
 }
 
 button:hover {
-  background: black;
+  background: blue;
   color: white;
 }
 
@@ -82,15 +82,15 @@ h1 {
 }
 
 .subtitle {
-  display: block;
-  font-size: 12px;
+  display: inline;
+  font-size: 22px;
   font-weight: 600;
-  margin-top: -5px;
-  margin-bottom: 10px;
+  margin-top: 5px;
+  margin-bottom: 12px;
 }
 
 .forecastOutfit img {
-  box-shadow: 2px 2px 0 #348d74;  
+  box-shadow: 3px 4px 2 purple;  
 }
 
 #app {
@@ -112,9 +112,9 @@ h1 {
   vertical-align: top;
   display: inline-block;
   width: 304px;
-  padding-right: 4px;
+  padding-right: 8px;
 }
 
 .i-should-be-tall {
-  height: 50px; /* Used to tell if this stylesheet has been loaded yet. */
+  height: 55px; /* Used to tell if this stylesheet has been loaded yet. */
 }
